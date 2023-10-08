@@ -1,0 +1,38 @@
+name: "YouTube-Uploads-Notifyer"
+author: "TwilightWingsStudio sy"
+description: "Automatically notifying new YouTube uploads on X(=Twitter) and Discord."
+inputs:
+  youtube_channel_id:
+    description: ""
+    required: false
+    default: "UCx8MhUwaY1_7C45USYgzVeg"
+  youtube_playlist_id:
+    description: ""
+    required: false
+    default: "PLGF8z568UBSJLFXYGS4FabcKT_66Wv_ug"
+  hash_tag:
+    description: "hash tag in notify message"
+    required: false
+    default: "TwilightWingsStudio"
+  x_consumer_key:
+    description: "X(=Twitter) API consumer key"
+    required: false
+  x_consumer_secret:
+    description: "X(=Twitter) API consumer secret key"
+    required: false
+  x_access_key:
+    description: "X(=Twitter) API access key"
+    required: false
+  x_access_secret:
+    description: "X(=Twitter) API access secret key"
+    required: false
+  discord_webhook_url:
+    description: ""
+    required: false
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "youtube"
+  color: "gray-dark"
