@@ -1,4 +1,4 @@
-FROM --platform=linux/x86_64 ruby:3.1.2
+FROM --platform=linux/x64 ruby:3.1.2
 FROM python:3.8
 
 ADD src /src
