@@ -1,4 +1,4 @@
-FROM --platform=linux/x64 python:3.8
+FROM python:3.8
 
 ADD src /src
 
