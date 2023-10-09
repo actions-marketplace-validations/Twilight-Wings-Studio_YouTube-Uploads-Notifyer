@@ -29,7 +29,7 @@ Automatically notifying new YouTube uploads on X(=Twitter) and Discord.
 コミットをするように設定が必要です。
 
 ```yml
-name: TEST
+name: Sample
 on:
   schedule:
     - cron: "0 * * * *" #毎時0分
@@ -37,7 +37,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  testjob:
+  samplejob:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
