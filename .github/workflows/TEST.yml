@@ -10,7 +10,7 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v3 # checkout the repository content to github runner.
       - name: execute YouTube-Uploads-Notifyer
-        uses: TwilightWings/YouTube-Uploads-Notifyer@main
+        uses: Twilight-Wings-Studio/YouTube-Uploads-Notifyer/@main
         with:
           youtube_channel_id: ${{vars.YOUTUBE_CHANNEL_ID}}
           youtube_playlist_id: ${{vars.YOUTUBE_PLAYLIST_ID}}
