@@ -13,6 +13,13 @@ jobs:
         uses: TwilightWings/YouTube-Uploads-Notifyer@main
         with:
           youtube_channel_id: ${{vars.YOUTUBE_CHANNEL_ID}}
+          youtube_playlist_id: ${{vars.YOUTUBE_CHANNEL_ID}}
+          hash_tag: ''
+          x_consumer_key: ${{secrets.X_CONSUMER_KEY}}
+          x_consumer_secret: ${{secrets.X_CONSUMER_SECRET}}
+          x_access_key: ${{secrets.X_ACCESS_KEY}}
+          x_access_secret: ${{secrets.X_ACCESS_SECRET}}
+          discord_webhook_url: ${{secrets.DISCORD_WEBHOOK_URL}}
       - name: execute commit
         run: |
           git config user.name github-actions
