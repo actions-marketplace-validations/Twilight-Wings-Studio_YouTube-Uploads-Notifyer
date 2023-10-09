@@ -9,7 +9,6 @@ inputs:
   youtube_playlist_id:
     description: ""
     required: false
-    default: "PLGF8z568UBSJLFXYGS4FabcKT_66Wv_ug"
   hash_tag:
     description: "hash tag in notify message"
     required: false
