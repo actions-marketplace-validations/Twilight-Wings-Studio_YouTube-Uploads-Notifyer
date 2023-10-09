@@ -1,5 +1,6 @@
 # YouTube-Uploads-Notifyer
 
+YouTubeの新着アップロードをX(=Twitter)とDiscordで自動通知します。
 Automatically notifying new YouTube uploads on X(=Twitter) and Discord.
 
 ## Parameters
