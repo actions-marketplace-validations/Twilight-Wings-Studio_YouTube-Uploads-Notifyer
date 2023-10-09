@@ -12,7 +12,6 @@ inputs:
   hash_tag:
     description: "hash tag in notify message"
     required: false
-    default: "TwilightWingsStudio"
   x_consumer_key:
     description: "X(=Twitter) API consumer key"
     required: false
